@@ -27,7 +27,7 @@
                         <td><?php echo htmlspecialchars($sexo['idsexo']); ?></td>
                         <td><?php echo htmlspecialchars($sexo['nombre']); ?></td>
                         <td>
-    <a href="/google6b/public/sexo/edit?id=<?php echo htmlspecialchars($sexo['id']); ?>">
+    <a href="/google6b/public/sexo/edit?id=<?php echo htmlspecialchars($sexo['idsexo']); ?>">
         <button>Editar</button>
     </a>
     <a href="/google6b/public/sexo/eliminar?id=<?php echo htmlspecialchars($sexo['id']); ?>" 
