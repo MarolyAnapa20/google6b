@@ -30,7 +30,7 @@
     <a href="/google6b/public/sexo/edit?id=<?php echo htmlspecialchars($sexo['idsexo']); ?>">
         <button>Editar</button>
     </a>
-    <a href="/google6b/public/sexo/eliminar?id=<?php echo htmlspecialchars($sexo['id']); ?>" 
+    <a href="/google6b/public/sexo/eliminar?id=<?php echo htmlspecialchars($sexo['idsexo']); ?>" 
        onclick="return confirm('¿Estás seguro de eliminar este registro?');">
         <button>Eliminar</button>
     </a>
